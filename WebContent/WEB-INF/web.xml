@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>ClubSystem</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>logIn.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>logIn</display-name>
+    <servlet-name>logIn</servlet-name>
+    <servlet-class>Servlet.logIn</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>logIn</servlet-name>
+    <url-pattern>/logIn</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>homepage</display-name>
+    <servlet-name>homepage</servlet-name>
+    <servlet-class>Servlet.homepage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>homepage</servlet-name>
+    <url-pattern>/homepage</url-pattern>
+  </servlet-mapping>
+<servlet>
+  <servlet-name>myregister</servlet-name>
+  <servlet-class>Servlet.myregister</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>myregister</servlet-name>
+<url-pattern>/myregister</url-pattern>
+</servlet-mapping>
+
+
+  <servlet>
+    <description></description>
+    <display-name>registerClub</display-name>
+    <servlet-name>registerClub</servlet-name>
+    <servlet-class>Servlet.registerClub</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>registerClub</servlet-name>
+    <url-pattern>/registerClub</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>showActivity</display-name>
+    <servlet-name>showActivity</servlet-name>
+    <servlet-class>Servlet.showActivity</servlet-class>
+    
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>showActivity</servlet-name>
+    <url-pattern>/activities</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>createNewActivity</display-name>
+    <servlet-name>createNewActivity</servlet-name>
+    <servlet-class>Servlet.createNewActivity</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>createNewActivity</servlet-name>
+    <url-pattern>/createNewActivity</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>deleteActivity</display-name>
+    <servlet-name>deleteActivity</servlet-name>
+    <servlet-class>Servlet.deleteActivity</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deleteActivity</servlet-name>
+    <url-pattern>/deleteActivity</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>searchCategory</display-name>
+    <servlet-name>searchCategory</servlet-name>
+    <servlet-class>Servlet.searchCategory</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>searchCategory</servlet-name>
+    <url-pattern>/searchCategory</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <description></description>
+    <display-name>searchClub</display-name>
+    <servlet-name>searchClub</servlet-name>
+    <servlet-class>Servlet.searchClub</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>searchClub</servlet-name>
+    <url-pattern>/searchClub</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description></description>
+    <display-name>searchName</display-name>
+    <servlet-name>searchName</servlet-name>
+    <servlet-class>Servlet.searchName</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>searchName</servlet-name>
+    <url-pattern>/searchName</url-pattern>
+  </servlet-mapping>
+ <servlet>
+    <description></description>
+    <display-name>ListServlet</display-name>
+    <servlet-name>ListServlet</servlet-name>
+    <servlet-class>Servlet.ListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListServlet</servlet-name>
+    <url-pattern>/ListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AddServlet</display-name>
+    <servlet-name>AddServlet</servlet-name>
+    <servlet-class>Servlet.AddServlet</servlet-class>
+  </servlet>
+   <servlet-mapping>
+    <servlet-name>AddServlet</servlet-name>
+    <url-pattern>/AddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DeleteServlet</display-name>
+    <servlet-name>DeleteServlet</servlet-name>
+    <servlet-class>Servlet.DeleteServlet</servlet-class>
+  </servlet>
+   <servlet-mapping>
+    <servlet-name>DeleteServlet</servlet-name>
+    <url-pattern>/DeleteServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
